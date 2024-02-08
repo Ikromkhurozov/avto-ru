@@ -9,7 +9,6 @@ export const NavigationList = styled.ul`
   justify-content: space-between;
   align-items: center;
 
-
   li {
     list-style-type: none;
     transition: all ease .2s;

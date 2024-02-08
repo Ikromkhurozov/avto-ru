@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import dynamic from "next/dynamic";
+import {useRouter} from "next/router";
 import {FormattedMessage, useIntl} from "react-intl";
 
 const Navigation = dynamic(() => import("@/Components/Header/Navigation"));
-const Logo = dynamic(() => import("@/Components/Home/Logo"));
 const LanguageSwitcher = dynamic(() => import("@/Components/Header/LanguageSwitcher"));
 const SubMenuPanel = dynamic(()=> import("@/Components/Header/SubMenuPanel"))
-const CatalogTabs = dynamic(()=> import("@/Components/Home/CatalogTabs"))
+const CatalogTabs = dynamic(()=> import("@/Components/Header/CatalogTabs"))
 const Modal = dynamic(()=> import("@/Components/CommonModal/CommonModal"))
 
 import {
@@ -24,7 +24,7 @@ import {
     HeaderContainer,
     HeaderLinks,
     HeaderWrapper,
-    LinkWrapper, LoginActions, LoginContent, LoginInput, NavigationWrapper,
+    LinkWrapper, LoginActions, LoginContent, LoginInput, LogoWrapper, NavigationWrapper,
     SearchInput
 } from "@/Components/Header/HeaderStyles";
 import {IconWrapper} from "@/styles/CommonStyles";
@@ -33,6 +33,7 @@ import {Button} from "@/styles/Buttons";
 
  export default function Header() {
      const intl = useIntl()
+     const router = useRouter();
      const [isOpen, setIsOpen] = useState(false);
      const [toggleLang, setToggleLang] = useState(false);
      const [showMenuPanel, setShowMenuPanel] = useState(false);
@@ -52,7 +53,9 @@ import {Button} from "@/styles/Buttons";
                     {!showMenuPanel ? <MenuLogo/> : <CloseIcon />}
                     {showMenuPanel &&  <SubMenuPanel/>}
                 </IconWrapper>
-                <Logo/>
+                <LogoWrapper onClick={()=> router.push("/")}>
+                    <CommonText color="#E60000" fontSize="28px" fontWeight="600" lineHeight="30px">auto.ru</CommonText>
+                </LogoWrapper>
 
                 <SearchInput>
                     <SearchIcon/>

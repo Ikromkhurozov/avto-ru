@@ -15,6 +15,10 @@ export const HeaderWrapper = styled.div`
   padding: 15px 15px;
 `
 
+export const LogoWrapper = styled.div`
+    cursor: pointer;
+`
+
 // must restyling
 export const SearchInput = styled.div`
   display: flex;
@@ -148,6 +152,8 @@ export const LanguageList = styled.ul`
 `;
 
 export const NavigationWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
   background-color: #E60000;
   padding: 12px;
   color: #fff;

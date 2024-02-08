@@ -1,5 +1,5 @@
 import React from 'react';
-import {CatalogsWrapper, CatalogTabContainer, SelectRegion} from "@/Components/Home/CatalogTabStyles";
+import {CatalogsWrapper, CatalogTabContainer, SelectRegion} from "@/Components/Header/CatalogTabStyles";
 import {CommonText} from "@/styles/Text";
 import {FormattedMessage} from "react-intl";
 import {SelectRegionIcon} from "@/Components/Icons/Icons";
