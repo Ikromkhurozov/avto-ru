@@ -75,7 +75,7 @@ export const en = {
     "contract.of.sale": "Contract of sale",
     help: "Help",
     "become.part.of.the.team": "Become part of the team",
-    "about.the.project": "about the project",
+    "about.the.project": "About the project",
     "analytics.avto.ru": "Analytics Avto.ru",
 
     // login
@@ -85,5 +85,43 @@ export const en = {
     cancel: "Cancel",
 
 //     privacy
-    "privacy.policy": "By logging into the site, I accept the terms of the user agreement and consent to the processing of personal data in accordance with Russian legislation and the user agreement."
+    "privacy.policy": "By logging into the site, I accept the terms of the user agreement and consent to the processing of personal data in accordance with Russian legislation and the user agreement.",
+
+//     footer
+    "sasha.kotov": "Sasha kotov",
+    "page.is.in.development": "This page is in development process 😉💻",
+    "seo.text.one": "Avto.ru is one of the most visited automotive sites on the Russian Internet.",
+    "seo.text.two": "We offer a large selection of cars, trucks and commercial vehicles, motorcycles, special equipment and many other types of vehicles",
+    "advertising.services": "LLC «Advertising Services»",
+    "terms.of.use": "Terms of use",
+    "recommendation.rules": "Recommendation rules",
+    "project.company": "Project company",
+
+//     regions
+
+    moscow :"Moscow",
+    "saint.petersburg" :"Saint Petersburg",
+    vladimir :"Vladimir",
+    volgograd :"Volgograd",
+    voronezh :"Voronezh",
+    ekaterinburg :"Ekaterinburg",
+    ivanovo :"Ivanovo",
+    kazan :"Kazan",
+    kaluga :"Kaluga",
+    kostroma :"Kostroma",
+    krasnodar :"Krasnodar",
+    krasnoyarsk :"Krasnoyarsk",
+    "nizhny.novgorod" :"Nizhny Novgorod",
+    novosibirsk :"Novosibirsk",
+    omsk :"Omsk",
+    permian :"Permian",
+    "rostov.on.don" :"Rostov-on-Don",
+    samara :"Samara",
+    saratov :"Saratov",
+    tver :"Tver",
+    tula :"Tula",
+    ufa :"Ufa",
+    chelyabinsk :"Chelyabinsk",
+    yaroslavl :"Yaroslavl",
+
 }
