@@ -97,6 +97,7 @@ export const ru = {
     "terms.of.use": "Пользовательское соглашение",
     "recommendation.rules": "Правила рекомендаций",
     "project.company": "Проект компании",
+    year: "год",
 //     regions
 
     moscow :"Москва",
@@ -123,6 +124,8 @@ export const ru = {
     ufa :"Уфа",
     chelyabinsk :"Челябинск",
     yaroslavl :"Ярославль",
+
+    "car.name": "BMW x6 restyling",
 
 }
 

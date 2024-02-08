@@ -96,6 +96,7 @@ export const en = {
     "terms.of.use": "Terms of use",
     "recommendation.rules": "Recommendation rules",
     "project.company": "Project company",
+    year: "year",
 
 //     regions
 
@@ -123,5 +124,7 @@ export const en = {
     ufa :"Ufa",
     chelyabinsk :"Chelyabinsk",
     yaroslavl :"Yaroslavl",
+
+    "car.name": "BMW х6 рестайлинг",
 
 }
